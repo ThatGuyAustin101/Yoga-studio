@@ -1,0 +1,199 @@
+
+*{box-sizing: border-box;}
+
+
+
+a:link {color: #3f2860;}
+a:visited {color: #497777;}
+a:hover {color: #8f92b2;;}
+
+header:visited{
+    color:#FFFFFF;
+}
+header:link{
+    color:#FFFFFF;
+}
+header:hover{
+    color:#EDF5F5;
+}
+
+header{
+    margin-top: 50px;
+    background-color:#40407A;
+    color:#FFFFFF;
+background-image: url("sunrise.jpg"); 
+background-size:90%;
+background-size: 100% 100%;
+text-decoration: none;
+min-height: 200px;
+}
+
+body{background-color:#40407A;
+
+margin:0;
+font-family: sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding-right: 2em;
+    font-size: 1.2em;
+}
+
+
+div{
+    width: 100%;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+text-align: right;
+background-color: white;
+margin:0%;
+padding-top:0.5em;
+padding-bottom:1em;
+padding: right 0;
+    text-decoration:none;
+}
+
+nav li{
+display:inline;
+padding-left: 2em;
+width:30%;
+}
+footer{
+
+    font-style: italic;
+    text-align: center;
+    float:right
+}
+li{
+font-size: 90%;
+}
+dd{
+font-size:90%;
+}
+#wrapper{
+   
+    padding:2em;
+    background-color: #F5F5F5;
+
+}
+.home{
+    height: 20vh;
+    padding-top: 2em;
+padding-left:10% n;
+
+
+}
+.content {
+    height:20vh;
+    padding-top: 2em;
+    padding-left: 10%;
+
+}
+.mathero 
+ {
+height: 300px;
+background-image:url("yogamat.jpg");
+display:none;
+
+}
+.loungehero {
+    height:300px;
+    background-image: url("yogalounge.jpg");
+    background-size: 100% 100%;
+   display: none;
+}
+h2{
+    margin:0;
+}
+section{
+padding-left: .5em;
+padding-right: .5em;
+}
+#flow{
+    display:block;
+}
+table{
+    min-width: none;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+    
+    
+ 
+}
+.tablestyle{
+    margin: 1em;
+    text-emphasis-style: bold;
+    font-size: 120%;
+}
+td{
+padding: 0.5em;
+border-color:#40407A;
+border-width:1px;
+border-style:solid;
+}
+th{
+    padding: 0.5em;
+    border-color:#40407A;
+    border-width:1px;
+    border-style:solid;
+}
+tr:nth-of-type(even){
+  background-color: #D7E8E9;
+}
+form {display:flex;
+flex-flow:column nowrap; }
+input, datalist textarea {margin-bottom: .5em;}
+@media (min-width:600px){
+    nav ul{
+        justify-content: flex-end;
+    }
+    nav li{
+        width: 7px;
+    }
+    section{
+        padding-left:2em;
+        padding-right:2em;
+    }
+.mathero{
+display: block;
+padding-bottom: 1em;
+}
+.loungehero{
+    display: block;
+    padding-bottom: 1em;
+}
+#flow {
+    flex-direction: row;
+}
+}
+@media (min-width:1024px){
+
+header{
+    font-size: 120%;
+}
+nav{
+text-emphasis-style: bold;
+}
+.home{
+    height:50vh;
+    padding-top:5em;
+    padding-left:8em;
+}
+.content{
+    height: 30vh;
+    padding-top: 23m;
+    padding-left: 8em;
+
+}
+#wrapper{
+    margin:auto;
+    width: 80%;
+}
+}
